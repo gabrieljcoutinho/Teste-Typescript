@@ -2,10 +2,15 @@ import React from 'react'
 
 type Props = {}
 
-const btnHeader = (props: Props) => {
+// Mudei para "B" maiúsculo
+const BtnHeader = (props: Props) => {
   return (
-    <div>btnHeader</div>
+    <div>
+
+<button>Botao</button>
+
+    </div>
   )
 }
 
-export default btnHeader
+export default BtnHeader
