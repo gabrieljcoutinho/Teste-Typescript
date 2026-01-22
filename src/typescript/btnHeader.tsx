@@ -1,16 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-type Props = {}
+interface Props {}
 
-// Mudei para "B" maiúsculo
-const BtnHeader = (props: Props) => {
+const BtnHeader: React.FC<Props> = () => {
   return (
     <div>
-
-<button>Botao</button>
-
+      <button>Botao</button>
     </div>
-  )
+  );
 }
 
-export default BtnHeader
+export default BtnHeader;
