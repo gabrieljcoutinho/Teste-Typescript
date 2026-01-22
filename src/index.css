@@ -6,15 +6,19 @@
 .header {
     background-color: #000;
     color: #fff;
+
+    height: 300px;
 }
 
 .section {
     background-color: #252525;
     color: #fff;
+    height: 300px;
 }
 
 
 .footer {
     background-color: #c0c0c0;
     color: #fff;
+    height: 300px;
 }
