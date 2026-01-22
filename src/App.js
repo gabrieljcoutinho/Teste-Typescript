@@ -1,6 +1,8 @@
 
 import "./index.css"
 
+import Btn from "../src/typescript/btnHeader"
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +11,8 @@ function App() {
       <header className="header">
 
       <h1>Header</h1>
+
+    <Btn/>
 
       </header>
 
