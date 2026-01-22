@@ -1,7 +1,8 @@
 
 import "./index.css"
 
-import Btn from "../src/typescript/btnHeader"
+import Btn from "./typescript/btnHeader.tsx"
+
 
 function App() {
   return (
