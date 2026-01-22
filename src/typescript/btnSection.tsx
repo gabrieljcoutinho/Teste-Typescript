@@ -1,10 +1,11 @@
 import React from 'react'
+import "../index.css"
 
 type Props = {}
 
 const btnSection = (props: Props) => {
   return (
-    <div>btnSection</div>
+    <div className='btnSection'>btnSection</div>
   )
 }
 
