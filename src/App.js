@@ -2,6 +2,7 @@
 import "./index.css"
 
 import Btn from "./typescript/btnHeader.tsx"
+import BtnSection from "./typescript/btnHeader.tsx"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
     <section className="section">
       <h1>Section</h1>
+          < BtnSection/>
     </section>
 
 
